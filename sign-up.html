@@ -14,7 +14,7 @@ License: For each use you must have a valid license purchased only from above li
 <html lang="en" >
     <!--begin::Head-->
     
-<!-- Mirrored from preview.keenthemes.com/metronic8/demo1/authentication/layouts/creative/sign-in.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 20 Jan 2023 12:15:48 GMT -->
+<!-- Mirrored from preview.keenthemes.com/metronic8/demo1/authentication/layouts/creative/sign-up.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 20 Jan 2023 12:15:49 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
         <title>Metronic - the world's #1 selling Bootstrap Admin Theme Ecosystem for HTML, VueJS, React, Angular. Laravel, Asp.Net Core, Ruby on Rails, Spring Boot, Blazor, Django, Express.js, Node.js & Flask by Keenthemes</title>
@@ -98,22 +98,23 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </style>
 <!--end::Page bg image-->
 
-<!--begin::Authentication - Sign-in -->
+<!--begin::Authentication - Sign-up -->
 <div class="d-flex flex-column flex-column-fluid flex-lg-row">
     <!--begin::Aside-->
     <div class="d-flex flex-center w-lg-50 pt-15 pt-lg-0 px-10">              
         <!--begin::Aside-->
-        <div class="d-flex flex-center flex-lg-start flex-column"> 
-            <!--begin::Title-->
-            <h2 class="text-white  pb-5"> 
-                Welcome to
-            </h2>  
-            <!--end::Title-->               
+        <div class="d-flex flex-center flex-lg-start flex-column">              
             <!--begin::Logo-->
             <a href="../../../index.html" class="mb-7">
-                <img alt="Logo" src="https://storage.googleapis.com/msgsndr/Xped5c2jrqgZhhg67y1J/media/6393e3186f63cd7e2f594748.png" />
+                <img alt="Logo" src="https://storage.googleapis.com/msgsndr/Xped5c2jrqgZhhg67y1J/media/6393e3186f63cd7e2f594748.png"/>
             </a>    
-            <!--end::Logo-->                   
+            <!--end::Logo-->            
+
+            <!--begin::Title-->
+            <h2 class="text-white fw-normal m-0"> 
+                Branding tools designed for your business
+            </h2>  
+            <!--end::Title-->         
         </div>
         <!--begin::Aside-->    
     </div>
@@ -127,18 +128,52 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <div class="card-body p-10 p-lg-20">
                     
 <!--begin::Form-->
-<form class="form w-100" novalidate="novalidate" id="kt_sign_in_form" data-kt-redirect-url="/metronic8/demo1/../demo1/index.html" action="#">
+<form class="form w-100" novalidate="novalidate" id="kt_sign_up_form" data-kt-redirect-url="/metronic8/demo1/../demo1/authentication/layouts/creative/sign-in.html" action="#">
     <!--begin::Heading-->
     <div class="text-center mb-11">
         <!--begin::Title-->
         <h1 class="text-dark fw-bolder mb-3">
-            Sign In
+            Sign Up
         </h1>
         <!--end::Title-->
- 
+
+        <!--begin::Subtitle-->
+        <div class="text-gray-500 fw-semibold fs-6">
+            Your Social Campaigns
+        </div>
+        <!--end::Subtitle--->
     </div>
     <!--begin::Heading-->
-  
+
+    <!--begin::Login options-->
+    <div class="row g-3 mb-9">
+        <!--begin::Col-->
+        <div class="col-md-6">
+            <!--begin::Google link--->
+            <a href="#" class="btn btn-flex btn-outline btn-text-gray-700 btn-active-color-primary bg-state-light flex-center text-nowrap w-100">
+                <img alt="Logo" src="assets/media/svg/brand-logos/google-icon.svg" class="h-15px me-3"/>   
+                Sign in with Google
+            </a>
+            <!--end::Google link--->
+        </div>
+        <!--end::Col-->
+
+        <!--begin::Col-->
+        <div class="col-md-6">
+            <!--begin::Google link--->
+            <a href="#" class="btn btn-flex btn-outline btn-text-gray-700 btn-active-color-primary bg-state-light flex-center text-nowrap w-100">
+                <img alt="Logo" src="assets/media/svg/brand-logos/apple-black.svg" class="theme-light-show h-15px me-3"/>  
+                <img alt="Logo" src="assets/media/svg/brand-logos/apple-black-dark.svg" class="theme-dark-show h-15px me-3"/>     
+                Sign in with Apple
+            </a>
+            <!--end::Google link--->
+        </div>
+        <!--end::Col-->
+    </div>
+    <!--end::Login options-->
+
+    <!--begin::Separator-->
+    <div class="separator separator-content my-14"><span class="w-125px text-gray-500 fw-semibold fs-7">Or with email</span></div>
     <!--end::Separator-->
 
     <!--begin::Input group--->
@@ -148,33 +183,66 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <!--end::Email-->
     </div>
 
-    <!--end::Input group--->
-    <div class="fv-row mb-3">    
-        <!--begin::Password-->
-        <input type="password" placeholder="Password" name="password" autocomplete="off" class="form-control bg-transparent"/>
-        <!--end::Password-->
+    <!--begin::Input group-->
+    <div class="fv-row mb-8" data-kt-password-meter="true">
+        <!--begin::Wrapper-->
+        <div class="mb-1">
+            <!--begin::Input wrapper-->
+            <div class="position-relative mb-3">    
+                <input class="form-control bg-transparent" type="password" placeholder="Password" name="password" autocomplete="off"/>
+
+                <span class="btn btn-sm btn-icon position-absolute translate-middle top-50 end-0 me-n2" data-kt-password-meter-control="visibility">
+                    <i class="bi bi-eye-slash fs-2"></i>
+                    <i class="bi bi-eye fs-2 d-none"></i>
+                </span>
+            </div>
+            <!--end::Input wrapper-->
+
+            <!--begin::Meter-->
+            <div class="d-flex align-items-center mb-3" data-kt-password-meter-control="highlight">
+                <div class="flex-grow-1 bg-secondary bg-active-success rounded h-5px me-2"></div>
+                <div class="flex-grow-1 bg-secondary bg-active-success rounded h-5px me-2"></div>
+                <div class="flex-grow-1 bg-secondary bg-active-success rounded h-5px me-2"></div>
+                <div class="flex-grow-1 bg-secondary bg-active-success rounded h-5px"></div>
+            </div>
+            <!--end::Meter-->
+        </div>
+        <!--end::Wrapper-->
+
+        <!--begin::Hint-->
+        <div class="text-muted">
+            Use 8 or more characters with a mix of letters, numbers & symbols.
+        </div>
+        <!--end::Hint-->
     </div>
     <!--end::Input group--->
 
-    <!--begin::Wrapper-->
-    <div class="d-flex flex-stack flex-wrap gap-3 fs-base fw-semibold mb-8">
-        <div></div>
-
-        <!--begin::Link-->
-        <a href="reset-password.html" class="link-primary">
-            Forgot Password ?
-        </a>
-        <!--end::Link-->
+    <!--end::Input group--->
+    <div class="fv-row mb-8">    
+        <!--begin::Repeat Password-->
+        <input type="text" placeholder="Repeat Password" name="confirm-password" type="password" autocomplete="off" class="form-control bg-transparent"/>
+        <!--end::Repeat Password-->
     </div>
-    <!--end::Wrapper-->    
+    <!--end::Input group--->
+
+    <!--begin::Accept-->
+    <div class="fv-row mb-8">
+        <label class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" name="toc" value="1"/>
+            <span class="form-check-label fw-semibold text-gray-700 fs-base ms-1">
+                I Accept the <a href="#" class="ms-1 link-primary">Terms</a>
+            </span>
+        </label>
+    </div>
+    <!--end::Accept-->
 
     <!--begin::Submit button-->
     <div class="d-grid mb-10">
-        <button type="submit" id="kt_sign_in_submit" class="btn btn-primary">
+        <button type="submit" id="kt_sign_up_submit" class="btn btn-primary">
             
 <!--begin::Indicator label-->
 <span class="indicator-label">
-    Sign In</span>
+    Sign up</span>
 <!--end::Indicator label-->
 
 <!--begin::Indicator progress-->
@@ -184,18 +252,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!--end::Indicator progress-->        </button>
     </div>
     <!--end::Submit button-->
-
+   
     <!--begin::Sign up-->
     <div class="text-gray-500 text-center fw-semibold fs-6">
-        Not a Member yet?
+        Already have an Account?
 
-        <a href="sign-up.html" class="link-primary">
-            Sign up
+        <a href="sign-in.html" class="link-primary fw-semibold">
+            Sign in
         </a>
     </div>
     <!--end::Sign up-->
 </form>
-<!--end::Form-->     
+<!--end::Form--> 
 
                 </div>
             <!--end::Card body-->
@@ -204,7 +272,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </div>
     <!--end::Body-->
 </div>
-<!--end::Authentication - Sign-in--></div>
+<!--end::Authentication - Sign-up--></div>
 <!--end::Root-->
         
         <!--begin::Javascript-->
@@ -218,12 +286,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         
         
                     <!--begin::Custom Javascript(used for this page only)-->
-                            <script src="assets/js/custom/authentication/sign-in/general.js"></script>
+                            <script src="assets/js/custom/authentication/sign-up/general.js"></script>
                         <!--end::Custom Javascript-->
                 <!--end::Javascript-->
         
             </body>
     <!--end::Body-->
 
-<!-- Mirrored from preview.keenthemes.com/metronic8/demo1/authentication/layouts/creative/sign-in.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 20 Jan 2023 12:15:49 GMT -->
+<!-- Mirrored from preview.keenthemes.com/metronic8/demo1/authentication/layouts/creative/sign-up.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 20 Jan 2023 12:15:49 GMT -->
 </html>
