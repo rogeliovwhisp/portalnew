@@ -45,10 +45,10 @@ label, p, a, button {
 
 
 /*Global Switch Element Height Adjustment*/
-.form-switch .form-check-input{
+/* .form-switch .form-check-input{
   width: 36px !important;
   height: 20px;
-}
+} */
 /*End of Globel Swtich Element Adjustment*/ 
 
 /*Global Modal Edge border radius*/
@@ -64,10 +64,10 @@ label, p, a, button {
 /*End of Global Card adjustment*/
 
 /*Global Radio button Mark color*/
-.form-check-input:checked{
+/* .form-check-input:checked{
   background-color: #66737F !important;
   border-color: #66737F !important;
-}
+} */
 /*End of Global Radio button Mark color*/
 
 /*Global Signout Sidebar button*/
@@ -270,6 +270,15 @@ ul.dropdown-menu.text-small.shadow.show{
 
 /*End of Create a Whisp QR*/
 
+@media only screen and (max-width: 1920px) and (min-width:500px) {
+  .mobiletabs.nav-line-tabs.nav-line-tabs-2x {
+    display: none;
+  }
+}
 
-
+@media screen and (max-width: 480px){
+  .desktoptabs.nav-line-tabs.nav-line-tabs-2x{
+    display: none;
+  }
+}
 
