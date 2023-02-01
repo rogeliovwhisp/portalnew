@@ -1,13 +1,13 @@
 /*Overall Font-style*/
-@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap');
 body{
   font-family: 'Outfit', sans-serif;
-}
-
+} */
+/* 
 label, p, a, button {
   font-family: 'Outfit', sans-serif;
-}
+} */
 
 
 
@@ -270,15 +270,20 @@ ul.dropdown-menu.text-small.shadow.show{
 
 /*End of Create a Whisp QR*/
 
-@media only screen and (max-width: 1920px) and (min-width:500px) {
+/*begin::Desktop tab selector*/
+@media only screen and (max-width: 2560px) and (min-width:800px) {
   .mobiletabs.nav-line-tabs.nav-line-tabs-2x {
     display: none;
   }
 }
+/*end::Desktop tab selector*/
 
-@media screen and (max-width: 480px){
-  .desktoptabs.nav-line-tabs.nav-line-tabs-2x{
+/*mobile tab selector*/
+@media screen and (max-width: 800px) and (min-width: 320px){
+  .desktoptabs.nav-line-tabs.nav-line-tabs-2x,
+  ul.breadcrumb.breadcrumb-separatorless.fw-semibold.fs-7.my-0.pt-1{
     display: none;
   }
+  
 }
 

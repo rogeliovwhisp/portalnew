@@ -35,7 +35,7 @@ License: For each use you must have a valid license purchased only from above li
         <link rel="shortcut icon" href="https://storage.googleapis.com/msgsndr/Xped5c2jrqgZhhg67y1J/media/637dc96427d2b357066ca661.png"/>
         <link rel="stylesheet" href="Custom_styles.css" type="text/css"/>
         <!--begin::Fonts(mandatory for all pages)-->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Outfit:300,400,500,600,700"/>        <!--end::Fonts-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700"/>        <!--end::Fonts-->
 
                     <!--begin::Vendor Stylesheets(used for this page only)-->
                             <link href="assets/plugins/custom/datatables/datatables.bundle.css" rel="stylesheet" type="text/css"/>
@@ -4809,119 +4809,151 @@ License: For each use you must have a valid license purchased only from above li
 
                 <!--begin::Input group-->
                 <div class="row fv-row mb-7">
-                    <div class="col-md-3 text-md-end">
+                    <div class="col-md-6">
                         <!--begin::Label-->
                         <label class="fs-6 fw-semibold form-label mt-3">
-                            <span class="required">Floater Label</span> 
-                            <i class="fas fa-exclamation-circle ms-1 fs-7" data-bs-toggle="tooltip" title="Lorem ipsum dorem"></i>
+                            <span class="required">Label Wheel</span> 
+                            <i class="fas fa-exclamation-circle ms-1 fs-7" data-bs-toggle="tooltip" title="Wheel Label Name"></i>
                         </label>
                         <!--end::Label-->
+                        <!--begin::Input-->
+                        <input type="text" class="form-control form-control-solid" name="" value="" />
+                        <!--end::Input-->
                     </div>
 
-                    <div class="col-md-9">
-                        <!--begin::Input-->
-                        <input type="text" class="form-control form-control-solid" name="" value="" placeholder="Enter floater label" />
-                        <!--end::Input-->
+                    <div class="col-md-6 d-flex gap-3">
+                        <!--begin::switch-->
+                        <div class="form-check form-check-solid form-switch form-check-custom fv-row pt-8">
+                            <input class="form-check-input w-35px h-20px" type="checkbox" id="googleswitch" checked />
+                            <label class="form-check-label" for="allowmarketing">Hide Floater</label>
+                        </div>
+                        <div class="form-check form-check-solid form-switch form-check-custom fv-row pt-8">
+                            <input class="form-check-input w-35px h-20px" type="checkbox" id="googleswitch" checked />
+                            <label class="form-check-label" for="allowmarketing">Auto Launch</label>
+                        </div>
+                        <!--end::switch-->
                     </div>
                 </div>
                 <!--end::Input group-->
 
                 <!--begin::Input group-->
-                <div class="row fv-row mb-7">
-                    <div class="col-md-3 text-md-end">
+                <div class="row fv-row mb-7 text-md-start">
+                    <div class="col-md-6">
                         <!--begin::Label-->
                         <label class="fs-6 fw-semibold form-label mt-3">
                             <span>Available Platforms</span>
                             <i class="fas fa-exclamation-circle ms-1 fs-7" data-bs-toggle="tooltip" title="Lorem ipsum dorem"></i>
                         </label>
                         <!--end::Label-->
+                        <!--begin::Select2-->
+                        <select class="form-select form-select-solid" name="theme" data-control="select2" data-hide-search="true" data-placeholder="Select a floater type">
+                            <option></option>
+                            <option value="Default" selected>All</option>
+                            <option value="Minimalist">Mobile</option>
+                            <option value="Dark">Desktop</option>
+                        </select>
+                        <!--end::Select2-->
                     </div>
 
-                    <div class="col-md-9">
-                        <!--begin::Input-->
-                        <input type="text" class="form-control form-control-solid" name="" value="" placeholder="Enter available plaforms"/>
-                        <!--end::Input-->
-                    </div>
-                </div>
-                <!--end::Input group-->
-
-
-                <!--begin::Input group-->
-                <div class="row fv-row mb-7">
-                    <div class="col-md-3 text-md-end">
+                    <div class="col-md-6 text-md-start">
                         <!--begin::Label-->
                         <label class="fs-6 fw-semibold form-label mt-3">
-                            <span>Floater Type</span>
-
-                            <i class="fas fa-exclamation-circle ms-1 fs-7" data-bs-toggle="tooltip" title="Select floater type."></i>
+                            <span>Page Placement</span>
+                            <i class="fas fa-exclamation-circle ms-1 fs-7" data-bs-toggle="tooltip" title="Lorem ipsum dorem"></i>
                         </label>
                         <!--end::Label-->
-                    </div>
-
-                    <div class="col-md-9">
-                        <div class="w-100">
-                            <!--begin::Select2-->
-                            <select class="form-select form-select-solid" name="theme" data-control="select2" data-hide-search="true" data-placeholder="Select a floater type">
-                                <option></option>
-                                <option value="Default" selected>Default</option>
-                                <option value="Minimalist">Minimalist</option>
-                                <option value="Dark">Dark</option>
-                                <option value="High_Contrast">High Contrast</option>
-                            </select>
-                            <!--end::Select2-->
-                        </div>
+                         <!--begin::Select2-->
+                         <select class="form-select form-select-solid" name="theme" data-control="select2" data-hide-search="true" data-placeholder="Select a floater type">
+                            <option></option>
+                            <option value="Default" selected>Bottom Left</option>
+                            <option value="Minimalist">Bottom Right</option>
+                        </select>
+                        <!--end::Select2-->
                     </div>
                 </div>
                 <!--end::Input group-->
 
+
                 <!--begin::Input group-->
                 <div class="row fv-row mb-7">
-                    <div class="col-md-3 text-md-end">
+                    <div class="col-md-6 text-md-start">
                         <!--begin::Label-->
                         <label class="fs-6 fw-semibold form-label mt-3">
-                            <span>Input Box Message</span>
-
-                            <i class="fas fa-exclamation-circle ms-1 fs-7" data-bs-toggle="tooltip" title="Enter box message."></i>
+                            <span class="required">Label 1</span>
+                            <i class="fas fa-exclamation-circle ms-1 fs-7" data-bs-toggle="tooltip" title="Label Wheel 1"></i>
                         </label>
                         <!--end::Label-->
+                        <!--begin::input--->
+                        <input type="text" class="form-control form-control-solid" name="" value="" />
+                        <!--end::input--->
                     </div>
 
-                    <div class="col-md-9">
-                        <!--begin::Input-->
-                        <textarea class="form-control form-control-solid" name="meta_description"></textarea>
-                        <!--end::Input-->
+                    <div class="col-md-6">
+                         <!--begin::Label-->
+                         <label class="fs-6 fw-semibold form-label mt-3">
+                            <span class="required">Label 2</span>
+                            <i class="fas fa-exclamation-circle ms-1 fs-7" data-bs-toggle="tooltip" title="Label Wheel 2"></i>
+                        </label>
+                        <!--end::Label-->
+                        <!--begin::input--->
+                        <input type="text" class="form-control form-control-solid" name="" value="" />
+                        <!--end::input--->
                     </div>
                 </div>
                 <!--end::Input group-->
 
                 <!--begin::Input group-->
                 <div class="row fv-row mb-7">
-                    <div class="col-md-3 text-md-end">
-                        &nbsp;
+                    <div class="col-md-6 text-md-start">
+                        <!--begin::Label-->
+                        <label class="fs-6 fw-semibold form-label mt-3">
+                            <span class="required">Label 3</span>
+                            <i class="fas fa-exclamation-circle ms-1 fs-7" data-bs-toggle="tooltip" title="Label Wheel 3"></i>
+                        </label>
+                        <!--end::Label-->
+                        <!--begin::input--->
+                        <input type="text" class="form-control form-control-solid" name="" value="" />
+                        <!--end::input--->
                     </div>
 
-                    <div class="col-md-9">
-                        <div class="d-flex flex-stack">
-                            <div class="pb-5">
-                               
-                                <div class="form-check form-check-solid form-check-custom form-switch">
-                                    <input class="form-check-input w-45px h-30px" type="checkbox" id="googleswitch" checked />
-                                    <label class="form-check-label" for="googleswitch">Hide floater on Page</label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card-title m-0 py-5">
-                            <h3 class="fw-bold m-0">Terms and Conditions</h3>
-                        </div>
-                        <div class="d-flex flex-stack">
-                            <div class="">
-                               
-                                <div class="form-check form-check-solid form-check-custom form-switch">
-                                    <input class="form-check-input w-45px h-30px" type="checkbox" id="googleswitch" checked />
-                                    <label class="form-check-label" for="googleswitch">Show Terms and conditions before whisp</label>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="col-md-6">
+                         <!--begin::Label-->
+                         <label class="fs-6 fw-semibold form-label mt-3">
+                            <span class="required">Label 4</span>
+                            <i class="fas fa-exclamation-circle ms-1 fs-7" data-bs-toggle="tooltip" title="Label Wheel 4"></i>
+                        </label>
+                        <!--end::Label-->
+                        <!--begin::input--->
+                        <input type="text" class="form-control form-control-solid" name="" value="" />
+                        <!--end::input--->
+                    </div>
+                </div>
+                <!--end::Input group-->
+
+                <!--begin::Input group-->
+                <div class="row fv-row mb-7">
+                    <div class="col-md-6 text-md-start">
+                        <!--begin::Label-->
+                        <label class="fs-6 fw-semibold form-label mt-3">
+                            <span class="required">Label 5</span>
+                            <i class="fas fa-exclamation-circle ms-1 fs-7" data-bs-toggle="tooltip" title="Label Wheel 5"></i>
+                        </label>
+                        <!--end::Label-->
+                        <!--begin::input--->
+                        <input type="text" class="form-control form-control-solid" name="" value="" />
+                        <!--end::input--->
+                    </div>
+
+                    <div class="col-md-6">
+                         <!--begin::Label-->
+                         <label class="fs-6 fw-semibold form-label mt-3">
+                            <span class="required">Label 6</span>
+                            <i class="fas fa-exclamation-circle ms-1 fs-7" data-bs-toggle="tooltip" title="Label Wheel 6."></i>
+                        </label>
+                        <!--end::Label-->
+                        <!--begin::input--->
+                        <input type="text" class="form-control form-control-solid" name="" value="" />
+                        <!--end::input--->
                     </div>
                 </div>
                 <!--end::Input group-->
@@ -5901,7 +5933,29 @@ License: For each use you must have a valid license purchased only from above li
 <!--end::Content-->					
                 </div>
                 <!--end::Content wrapper-->
+                <!--begin::Footer-->
+                <div id="kt_app_footer" class="app-footer " >
+                    <!--begin::Footer container-->
+                <div class="app-container  container-fluid d-flex flex-column flex-md-row flex-center flex-md-stack py-3 ">
+                    <!--begin::Copyright-->
+                <div class="text-dark order-2 order-md-1">
+                <span class="text-muted fw-semibold me-1">2023&copy;</span>
+                <a href="https://keenthemes.com/" target="_blank" class="text-gray-800 text-hover-primary">Taptext, LLC</a>
+                </div>
+                <!--end::Copyright-->
 
+                <!--begin::Menu-->
+                <ul class="menu menu-gray-600 menu-hover-primary fw-semibold order-1">
+                <li class="menu-item"><a href="https://whisp.io/about-us" target="_blank" class="menu-link px-2">About</a></li>
+
+                <li class="menu-item"><a href="https://whisp.io/contact-us" target="_blank" class="menu-link px-2">Contact Us</a></li>
+
+                <li class="menu-item"><a href="#" target="_blank" class="menu-link px-2">Purchase</a></li>
+                </ul>
+                <!--end::Menu-->        </div>
+                <!--end::Footer container-->
+                </div>
+                <!--end::Footer-->
 </div>
             <!--end:::Main-->
 
