@@ -4476,7 +4476,7 @@ License: For each use you must have a valid license purchased only from above li
 <div  class="page-title d-flex flex-column justify-content-center flex-wrap me-3 ">
     <!--begin::Title-->
     <h1 class="page-heading d-flex text-dark fw-bold fs-3 flex-column justify-content-center my-0">
-        Create A Whisp Floater
+        Create A Whisp Wheel
             </h1>
     <!--end::Title-->
 
@@ -4667,8 +4667,9 @@ License: For each use you must have a valid license purchased only from above li
                             <a class="nav-link text-active-dark pb-2 active" data-bs-toggle="tab" href="#kt_ecommerce_settings_general">
                                 <!--begin::Svg Icon | path: icons/duotune/general/gen001.svg-->
                                 <span class="svg-icon svg-icon-2 me-2">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-info-circle-fill" viewBox="0 0 16 16">
-                                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+                                  <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                  <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
                                 </svg>
                                 </span>
                                 <!--end::Svg Icon--> 
@@ -5796,84 +5797,74 @@ License: For each use you must have a valid license purchased only from above li
                 <form id="kt_ecommerce_settings_general_customers" class="form" action="#">
                     <div class="row fv-row mb-7">
                         <div class="col-md-9">
-                            <!--begin::Code-->
-                            <div class="mb-10">
-                                            <!--begin::Highlight-->
-                                <div class="highlight">  
-                                    <button class="highlight-copy btn" data-bs-toggle="tooltip" title="Copy code">copy</button>
-                                <ul class="nav nav-pills" role="tablist">
-                                    <li class="nav-item"><a class="nav-link active" data-bs-target="#kt_highlight_63ca842bcff2c" href="#" data-bs-toggle="tab" href="#kt_highlight_63ca842bcff2c" role="tab">JAVASCRIPT</a></li>
-                                    <li class="nav-item"><a class="nav-link " data-bs-target="#kt_highlight_63ca842bcff31" href="#" data-bs-toggle="tab" href="#kt_highlight_63ca842bcff31" role="tab">HTML</a></li>
-                                </ul>
-                         <div class="tab-content">
-                                    <div class="tab-pane fade show active" id="kt_highlight_63ca842bcff2c" role="tabpanel">
-                                            <div class="highlight-code">
-                                                <pre class="language-javascript">
-                                                    <code class="language-javascript" style="color: #9efeff;">
-                                                        <span class="token comment" style="color: #b362ff;">// Element to indecate</span>
-                                                        <span class="token keyword" style="color: #ff9d00;" >var</span> button 
-                                                        <span class="token operator" style="color: rgb(255, 180, 84);">=</span> document.
-                                                        <span class="token function" style="color: rgb(250, 208, 0);">querySelector</span>
-                                                        <span class="token punctuation" style="color: #fff;">(</span>
-                                                        <span class="token string" style="color: #a5ff90;">"#kt_button_1"</span>
-                                                        <span class="token punctuation" style="color: #fff;">)</span>;
-                                                        <span class="token comment" style="color: #b362ff;">// Handle button click event</span>
-                                                        button<span class="token function" style="color: rgb(250, 208, 0);">addEventListener</span><span class="token punctuation" style="color: #fff;">(</span>&quot;click&quot;, <span class="token keyword" style="color: #ff9d00;">function</span>
-                                                        <span class="token punctuation" style="color: #fff;">()</span> {
-                                                            <span class="token comment" style="color: #b362ff;">// Activate indicator </span>
-                                                        button.<span class="token function" style="color: rgb(250, 208, 0);">setAttribute</span>
-                                                        <span class="token punctuation" style="color: #fff;">(</span>
-                                                        <span class="token string" style="color: #a5ff90;">&quot;data-kt-indicator&quot,&quoton&quot</span>
-                                                        <span class="token punctuation" style="color: #fff;">)</span>;
+                            <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism-tomorrow.min.css" rel="stylesheet" type="text/css"/>
+                            <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/prism.min.js"></script>
+                            <main>
+                              <pre><code class="language-html">&lt;html&gt;&#13;&#10;&lt;head&gt;&#13;&#10;&lt;script type=&quot;text/javascript&quot; id=&quot;taptext-lib&quot; data-pid=&quot;c985d52c-fbac3497&quot;&#10; src=&quot;https://hub.whisp.io/scripts/taptext_lib.js&quot; data-On =&quot;PASS-YOUR-On -VALUE&quot;&gt;&#13;&#10;&lt;/script&gt;&#13;&#10;&lt;/head&gt;&#13;&#10;&lt;body&gt;&#13;&#10;&lt;button type=&quot;button&quot; class=&quot;btn-tap-text&quot; data-pid=&quot;fbac3497&quot;&gt;&#13;&#10;Click To Try WHISP NOW&#13;&#10;&lt;/button&gt;&#13;&#10;&lt;/body&gt;&#13;&#10;&lt;/html&gt;&#10;</code></pre>
+                            </main>
 
-                                                        <span class="token comment" style="color: #b362ff;">// Disable indicator after 3 seconds</span>
-                                                        <span class="token function" style="color: rgb(250, 208, 0);">setTimeout</span><span class="token punctuation" style="color: #fff;">(</span><span class="token keyword" style="color: #ff9d00;">function</span><span class="token punctuation" style="color: #fff;">()</span> {
-                                                            button.<span class="token function" style="color: rgb(250, 208, 0);" >removeAttribute</span>
-                                                            <span class="token punctuation" style="color: #fff;">(</span>
-                                                            <span class="token string" style="color: #a5ff90;">&quot;data-kt-indicator&quot;</span>
-                                                            <span class="token punctuation" style="color: #fff;">)</span>;
-                                                            <span class="token punctuation" style="color: #fff;">},</span><span class="token number" style="color: #ff628c;">3000</span><span class="token punctuation" style="color: #fff;">)</span>;
-                                                        <span class="token punctuation" style="color: #fff;">}</span><span class="token punctuation" style="color: #fff;">)</span>;
-                                                    </code>
-                                                </pre>    
-                                            </div>
-                                    </div>
-                                    <div class="tab-pane fade " id="kt_highlight_63ca842bcff31" role="tabpanel">    
-                                        <div class="highlight-code">
-                                            <pre class="language-html" style="color: #9efeff;">
-                                                <code class="language-html" >
-                                                    <span class="token punctuation" style="color: rgb(255, 157, 0);">&lt;</span><span class="token tag" style="color: rgb(255, 180, 84);">button</span>&nbsp;<span class="token attr-name" style="color: rgb(255, 180, 84);">type</span><span class="token punctuation attr-equals" style="color:#a9b7c6">=</span><span class="token punctuation" style="color: #a5c261;">"</span><span class="token punctuation" style="color: #a5c261;">button</span><span class="token punctuation" style="color: #a5c261;">"</span><span class="token attr-name" style="color: rgb(255, 180, 84);">class</span><span class="token punctuation attr-equals" style="color:#a9b7c6" >=</span><span class="token punctuation" style="color: #a5c261;">&quot;btn btn-primary me-10&quot</span><span class="token punctuation" style="color: #a5c261;">id=&quot;kt_button_1&quot</span>
-                                                    <span class="token punctuation" style="color: rgb(255, 157, 0);">&lt;span class</span><span class="token punctuation" style="color: #a5c261;"><span class="token punctuation attr-equals" style="color:#a9b7c6">=</span>&quot;indicator-label&quot;&gt;</span>
-                                                        Submit
-                                                    <span class="token punctuation" style="color: rgb(255, 157, 0);">&lt;/span&gt;</span>
-                                                    <span class="token punctuation" style="color: rgb(255, 157, 0);">&lt;span class</span><span class="token punctuation attr-equals" style="color:#a9b7c6">=</span><span class="token punctuation" style="color: #a5c261;">&quot;indicator-progress&quot;&gt</span>
-                                                        Please wait... 
-                                                        <span class="token punctuation" style="color: rgb(255, 157, 0);">&lt;span class</span><span class="token punctuation attr-equals" style="color:#a9b7c6">=</span><span class="token punctuation" style="color: #a5c261;">&quot;spinner-border spinner-border-sm align-middle ms-2&quot</span><span class="token punctuation" style="color: rgb(255, 157, 0);">&gt;&lt;/span&gt</span>
-                                                        <span class="token punctuation" style="color: rgb(255, 157, 0);">&lt;/span&gt;</span>
-                                                    <span class="token punctuation" style="color: rgb(255, 157, 0);">&lt;/button&gt;</span> 
-                                                </code>
-                                            </pre>    
-                                        </div>
-                                    </div>
-                        </div>
-                    </div><!--end::Highlight-->            
-                        </div>
-                       <!--end::Code-->
+                            <script>
+                                const copyButtonLabel = "Copy Code";
+
+                            // use a class selector if available
+                            let blocks = document.querySelectorAll("pre");
+
+                            blocks.forEach((block) => {
+                              // only add button if browser supports Clipboard API
+                              if (navigator.clipboard) {
+                                let button = document.createElement("button");
+                                button.classList.add('btn', 'btn-success', 'btn-sm', 'my-6');
+                                button.innerText = copyButtonLabel;
+                                block.appendChild(button);
+
+                                button.addEventListener("click", async () => {
+                                  await copyCode(block, button);
+                                });
+                              }
+                            });
+
+                            async function copyCode(block, button) {
+                              let code = block.querySelector("code");
+                              let text = code.innerText;
+
+                              await navigator.clipboard.writeText(text);
+
+                              // visual feedback that task is completed
+                              button.innerText = "Code Copied";
+
+                              setTimeout(() => {
+                                button.innerText = copyButtonLabel;
+                              }, 700);
+                            }
+                            </script>
+
                         </div>
                         <div class="col-md-3">
-                            <button class="btn btn-light mt-3 mb-3"><span class="svg-icon svg-icon-primary svg-icon-2x"><!--begin::Svg Icon | path:/var/www/preview.keenthemes.com/metronic/releases/2021-05-14-112058/theme/html/demo2/dist/../src/media/svg/icons/Code/Code.svg--><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                    <rect x="0" y="0" width="24" height="24"/>
-                                    <path d="M17.2718029,8.68536757 C16.8932864,8.28319382 16.9124644,7.65031935 17.3146382,7.27180288 C17.7168119,6.89328641 18.3496864,6.91246442 18.7282029,7.31463817 L22.7282029,11.5646382 C23.0906029,11.9496882 23.0906029,12.5503176 22.7282029,12.9353676 L18.7282029,17.1853676 C18.3496864,17.5875413 17.7168119,17.6067193 17.3146382,17.2282029 C16.9124644,16.8496864 16.8932864,16.2168119 17.2718029,15.8146382 L20.6267538,12.2500029 L17.2718029,8.68536757 Z M6.72819712,8.6853647 L3.37324625,12.25 L6.72819712,15.8146353 C7.10671359,16.2168091 7.08753558,16.8496835 6.68536183,17.2282 C6.28318808,17.6067165 5.65031361,17.5875384 5.27179713,17.1853647 L1.27179713,12.9353647 C0.909397125,12.5503147 0.909397125,11.9496853 1.27179713,11.5646353 L5.27179713,7.3146353 C5.65031361,6.91246155 6.28318808,6.89328354 6.68536183,7.27180001 C7.08753558,7.65031648 7.10671359,8.28319095 6.72819712,8.6853647 Z" fill="#000000" fill-rule="nonzero"/>
-                                    <rect fill="#000000" opacity="0.3" transform="translate(12.000000, 12.000000) rotate(-345.000000) translate(-12.000000, -12.000000) " x="11" y="4" width="2" height="16" rx="1"/>
-                                </g>
-                            </svg><!--end::Svg Icon--></span>Download
-                        </button>
-                            <button class="btn btn-light mt-3">
-                                <img src="https://storage.googleapis.com/msgsndr/Xped5c2jrqgZhhg67y1J/media/63d938227f581af3c1edd07f.svg+xml" alt="img">
+
+                            <!--begin:: button-->
+                            <a href="#" class="btn btn-lg fw-bold btn-danger mb-3 mt-2 px-10">
+                                <span class="svg-icon svg-icon-6 svg-icon-muted me-1">    
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-down" viewBox="0 0 16 16">
+                                      <path fill-rule="evenodd" d="M3.5 10a.5.5 0 0 1-.5-.5v-8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 0 0 1h2A1.5 1.5 0 0 0 14 9.5v-8A1.5 1.5 0 0 0 12.5 0h-9A1.5 1.5 0 0 0 2 1.5v8A1.5 1.5 0 0 0 3.5 11h2a.5.5 0 0 0 0-1h-2z"/>
+                                      <path fill-rule="evenodd" d="M7.646 15.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 14.293V5.5a.5.5 0 0 0-1 0v8.793l-2.146-2.147a.5.5 0 0 0-.708.708l3 3z"/>
+                                    </svg>
+                                </span>
+                                Download
+                            </a>
+                            <!--end:: button-->
+                            <!--begin:: button-->
+                            <a href="#" class="btn btn-lg fw-bold btn-primary">
+                                <span class="svg-icon svg-icon-6 svg-icon-muted me-1">    
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-wordpress" viewBox="0 0 16 16">
+                                      <path d="M12.633 7.653c0-.848-.305-1.435-.566-1.892l-.08-.13c-.317-.51-.594-.958-.594-1.48 0-.63.478-1.218 1.152-1.218.02 0 .039.002.058.003l.031.003A6.838 6.838 0 0 0 8 1.137 6.855 6.855 0 0 0 2.266 4.23c.16.005.313.009.442.009.717 0 1.828-.087 1.828-.087.37-.022.414.521.044.565 0 0-.371.044-.785.065l2.5 7.434 1.5-4.506-1.07-2.929c-.369-.022-.719-.065-.719-.065-.37-.022-.326-.588.043-.566 0 0 1.134.087 1.808.087.718 0 1.83-.087 1.83-.087.37-.022.413.522.043.566 0 0-.372.043-.785.065l2.48 7.377.684-2.287.054-.173c.27-.86.469-1.495.469-2.046zM1.137 8a6.864 6.864 0 0 0 3.868 6.176L1.73 5.206A6.837 6.837 0 0 0 1.137 8z"/>
+                                      <path d="M6.061 14.583 8.121 8.6l2.109 5.78c.014.033.03.064.049.094a6.854 6.854 0 0 1-4.218.109zm7.96-9.876c.03.219.047.453.047.706 0 .696-.13 1.479-.522 2.458l-2.096 6.06a6.86 6.86 0 0 0 2.572-9.224z"/>
+                                      <path fill-rule="evenodd" d="M0 8c0-4.411 3.589-8 8-8 4.41 0 8 3.589 8 8s-3.59 8-8 8c-4.411 0-8-3.589-8-8zm.367 0c0 4.209 3.424 7.633 7.633 7.633 4.208 0 7.632-3.424 7.632-7.633C15.632 3.79 12.208.367 8 .367 3.79.367.367 3.79.367 8z"/>
+                                    </svg>
+                                </span>
                                 Install Plugin
-                            </button>
-                        </div>
+                            </a>
+                            <!--end:: button-->
+                        </div> 
                     </div>
                 </form>
                 <!--end:: Input group-->
