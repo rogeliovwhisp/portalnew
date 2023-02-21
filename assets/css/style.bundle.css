@@ -27173,7 +27173,7 @@ textarea.form-control-lg {
   --kt-accordion-button-focus-border-color: #2B2B40;
   --kt-accordion-button-focus-box-shadow: none;
   --kt-accordion-icon-color: #FFFFFF;
-  --kt-accordion-icon-active-color: #009ef7;
+  --kt-accordion-icon-active-color: #36414C;
   --kt-accordion-button-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23FFFFFF'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
   --kt-accordion-button-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23009ef7'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
   --kt-tooltip-color: #CDCDDE;
@@ -27258,8 +27258,8 @@ textarea.form-control-lg {
   --kt-scrolltop-opacity-on: 0.3;
   --kt-scrolltop-opacity-hover: 1;
   --kt-scrolltop-box-shadow: 0 0.5rem 1.5rem 0.5rem rgba(0, 0, 0, 0.075);
-  --kt-scrolltop-bg-color: #009ef7;
-  --kt-scrolltop-bg-color-hover: #009ef7;
+  --kt-scrolltop-bg-color: #36414C;
+  --kt-scrolltop-bg-color-hover: #36414C;
   --kt-scrolltop-icon-color: #ffffff;
   --kt-scrolltop-icon-color-hover: #ffffff;
   --kt-drawer-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);

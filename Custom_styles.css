@@ -21,6 +21,13 @@ label, p, a, button {
   content: 'Cancel' !important;
 }
 
+/*begin::button custom*/
+.whispcreate:hover {
+  background-color: #d0ff00 !important;
+  color: #000 !important;
+}
+/*begin::button custom*/
+
 /*begin::Desktop tab selector*/
 @media only screen and (max-width: 2560px) and (min-width:800px) {
   .mobiletabs.nav-line-tabs.nav-line-tabs-2x {
