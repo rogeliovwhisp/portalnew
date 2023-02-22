@@ -47,7 +47,10 @@ License: For each use you must have a valid license purchased only from above li
                             <link href="assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css"/>
                             <link href="assets/css/style.bundle.css" rel="stylesheet" type="text/css"/>
                         <!--end::Global Stylesheets Bundle-->
- 
+
+                          <!--begin:: custom css Whisp theme-->
+                    <link rel="stylesheet" href="Custom_styles.css" type="text/css"/>
+                    <!--end:: custom css Whisp theme-->
 </head>
 <!--end::Head-->
 
@@ -8468,7 +8471,7 @@ License: For each use you must have a valid license purchased only from above li
 <!--end::App-->
 
     <!--begin::App layout builder-->
-<div 
+    <div 
 	id="kt_app_layout_builder" 
 	class="bg-body" 
 
@@ -8503,7 +8506,8 @@ style="background-image:url('https://assets.cdn.msgsndr.com/Xped5c2jrqgZhhg67y1J
 </svg>
 
 </span>
-<!--end::Svg Icon-->        </button>
+<!--end::Svg Icon-->        
+</button>
     </div>
     <!--end::Card toolbar-->
 </div>
@@ -8527,7 +8531,8 @@ style="background-image:url('https://assets.cdn.msgsndr.com/Xped5c2jrqgZhhg67y1J
 <div class="card-body p-0">
     <!--begin::Form group-->
     <div class="form-group">
-
+       
+        
         <!--begin::Options-->
         <div class="row" data-kt-buttons="true" data-kt-buttons-target=".form-check-image,.form-check-input">
                             <!--begin::Col-->
@@ -8554,7 +8559,7 @@ style="background-image:url('https://assets.cdn.msgsndr.com/Xped5c2jrqgZhhg67y1J
                     <!--end::Option-->             
                 </div>
                 <!--end::Col-->
-                            <!--begin::Col-->
+                <!--begin::Col-->
                 <div class="col-6">
                     <!--begin::Option-->
                     <label class="form-check-image form-check-success">
@@ -8578,12 +8583,39 @@ style="background-image:url('https://assets.cdn.msgsndr.com/Xped5c2jrqgZhhg67y1J
                     <!--end::Option-->             
                 </div>
                 <!--end::Col-->
+                <!--begin::Col-->
+                <div class="col-6 pt-5">
+                    <!--begin::Option-->
+                    <label class="form-check-image form-check-success">
+                        <!--begin::Image--> 
+                        <div class="form-check-wrapper">
+                            <img src="https://storage.googleapis.com/msgsndr/Xped5c2jrqgZhhg67y1J/media/63f576641e60ae24daa21a4d.png" class="mw-100" alt=""/>                      
+                        </div>
+                        <!--end::Image--> 
+
+                        <!--begin::Check--> 
+                        <div class="form-check form-check-custom form-check-solid form-check-sm form-check-success">
+                            <input class="form-check-input" type="radio" value="whisp" name="theme_mode" id="kt_layout_builder_theme_mode_whisp"/>
+
+                            <!--begin::Label--> 
+                            <div class="form-check-label text-gray-700">
+                                Whisp                            </div>
+                            <!--end::Label--> 
+                        </div>
+                        <!--end::Check--> 
+                    </label>   
+                    <!--end::Option-->             
+                </div>
+                <!--end::Col-->
               
         </div>
         <!--end::Options-->            
     </div>
     <!--end::Form group-->
 
+    <!--begin::Separator-->
+    <div class="separator separator-dashed my-5"></div>
+    <!--end::Separator-->
 </div>
 <!--end::Card body-->				</form>
 				<!--end::Form-->
@@ -8593,9 +8625,6 @@ style="background-image:url('https://assets.cdn.msgsndr.com/Xped5c2jrqgZhhg67y1J
 		<!--end::Card body-->
 
 		<!--begin::Card footer-->
-<div class="card-footer border-0 d-flex gap-3 pb-9 pt-0" id="kt_app_layout_builder_footer">
-
-</div>
 <!--end::Card footer-->	</div>
 	<!--end::Card-->
 </div>
