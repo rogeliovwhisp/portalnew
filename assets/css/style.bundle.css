@@ -47897,7 +47897,36 @@ body,
   }
 }
 html:not([data-theme=dark]) {
-  --kt-app-bg-color: #f5f8fa;
+  /*--kt-app-bg-color: #f5f8fa;
+  --kt-app-blank-bg-color: #ffffff;
+  --kt-app-header-base-bg-color: #ffffff;
+  --kt-app-header-base-bg-color-mobile: #ffffff;
+  --kt-app-header-base-box-shadow: 0px 10px 30px 0px rgba(82, 63, 105, 0.05);
+  --kt-app-header-base-box-shadow-mobile: 0px 10px 30px 0px rgba(82, 63, 105, 0.05);
+  --kt-app-header-base-menu-link-bg-color-active: #F4F6FA;
+  --kt-app-header-light-separator-color: #E4E6EF;
+  --kt-app-sidebar-base-toggle-btn-box-shadow: 0px 0px 10px rgba(113, 121, 136, 0.1);
+  --kt-app-sidebar-base-toggle-btn-bg-color: #ffffff;
+  --kt-app-sidebar-light-bg-color: #ffffff;
+  --kt-app-sidebar-light-box-shadow: 0 0 28px 0 rgba(82, 63, 105, 0.05);
+  --kt-app-sidebar-light-separator-color: #E4E6EF;
+  --kt-app-sidebar-light-scrollbar-color: #F4F4F4;
+  --kt-app-sidebar-light-scrollbar-color-hover: #F4F4F4;
+  --kt-app-sidebar-light-menu-heading-color: #B5B5C3;
+  --kt-app-sidebar-light-menu-link-bg-color-active: #F4F6FA;
+  --kt-app-sidebar-light-header-menu-link-bg-color-active: #EAEEF2;
+  --kt-app-toolbar-base-bg-color: #ffffff;
+  --kt-app-toolbar-base-bg-color-mobile: #ffffff;
+  --kt-app-toolbar-base-box-shadow: 0px 10px 30px 0px rgba(82, 63, 105, 0.05);
+  --kt-app-toolbar-base-box-shadow-mobile: 0px 10px 30px 0px rgba(82, 63, 105, 0.05);
+  --kt-app-toolbar-base-border-top: 1px solid #F4F4F4;
+  --kt-app-toolbar-base-border-top-mobile: 1px solid #F4F4F4;
+  --kt-app-footer-bg-color: #ffffff;
+  --kt-app-footer-bg-color-mobile: #ffffff;*/
+}
+
+[data-theme=light] {
+  --kt-app-bg-color: #ffffff;
   --kt-app-blank-bg-color: #ffffff;
   --kt-app-header-base-bg-color: #ffffff;
   --kt-app-header-base-bg-color-mobile: #ffffff;
@@ -47923,6 +47952,36 @@ html:not([data-theme=dark]) {
   --kt-app-toolbar-base-border-top-mobile: 1px solid #F4F4F4;
   --kt-app-footer-bg-color: #ffffff;
   --kt-app-footer-bg-color-mobile: #ffffff;
+  }
+
+[data-theme=whisp] {
+  --kt-app-bg-color: green;
+  --kt-app-blank-bg-color: green;
+  --kt-app-header-base-bg-color: green;
+  --kt-app-header-base-bg-color-mobile: green;
+  --kt-app-header-base-box-shadow: green;
+  --kt-app-header-base-box-shadow-mobile: green;
+  --kt-app-header-base-menu-link-bg-color-active: green;
+  --kt-app-header-light-separator-color: green;
+  --kt-app-sidebar-base-toggle-btn-box-shadow: none;
+  --kt-app-sidebar-base-toggle-btn-bg-color: green;
+  --kt-app-sidebar-light-bg-color: green;
+  --kt-app-sidebar-light-box-shadow: green;
+  --kt-app-sidebar-light-separator-color: green;
+  --kt-app-sidebar-light-scrollbar-color: green;
+  --kt-app-sidebar-light-scrollbar-color-hover: green;
+  --kt-app-sidebar-light-menu-heading-color: green;
+  --kt-app-sidebar-light-menu-link-bg-color-active: green;
+  --kt-app-sidebar-light-header-menu-link-bg-color-active: green;
+  --kt-app-toolbar-base-bg-color: green;
+  --kt-app-toolbar-base-bg-color-mobile: green;
+  --kt-app-toolbar-base-box-shadow: none;
+  --kt-app-toolbar-base-box-shadow-mobile: 0px 10px 30px 0px rgba(82, 63, 105, 0.05);
+  --kt-app-toolbar-base-border-top: 0;
+  --kt-app-toolbar-base-border-top-mobile: 1px solid yellow;
+  --kt-app-footer-bg-color: green;
+  --kt-app-footer-bg-color-mobile: green;
+  --kt-card-bg: green;
 }
 
 [data-theme=dark] {

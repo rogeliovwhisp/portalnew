@@ -7526,6 +7526,7 @@ var KTAppLayoutBuilder = function() {
 	var handleThemeMode = function() {
 		var checkLight = document.querySelector('#kt_layout_builder_theme_mode_light');
 		var checkDark = document.querySelector('#kt_layout_builder_theme_mode_dark');
+        var checkWhisp = document.querySelector('#kt_layout_builder_theme_mode_whisp');
 		var check = document.querySelector('#kt_layout_builder_theme_mode_' + KTThemeMode.getMode());
 
 		if (checkLight) {
@@ -7545,6 +7546,15 @@ var KTAppLayoutBuilder = function() {
 				KTThemeMode.setMode('dark');
 			});
 		}
+
+        if (checkWhisp) {
+            checkWhisp.addEventListener("click", function() {
+                this.checked = true;
+                this.closest('[data-kt-buttons="true"]').querySelector('.form-check-image.active').classList.remove('active');
+                this.closest('.form-check-image').classList.add('active');
+                KTThemeMode.setMode('whisp');
+            });
+        }
 
 		if ( check ) {
 			check.closest('.form-check-image').classList.add('active');
