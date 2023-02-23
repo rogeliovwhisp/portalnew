@@ -26688,6 +26688,7 @@ textarea.form-control-lg {
   --kt-text-gray-700: #5E6278;
   --kt-text-gray-800: #3F4254;
   --kt-text-gray-900: #181C32;
+  --kt-text-whisp:#1b1b29;
   --kt-body-bg: #ffffff;
   --kt-body-bg-rgb: 255, 255, 255;
   --kt-body-color: #181C32;
@@ -27018,6 +27019,7 @@ textarea.form-control-lg {
   --kt-text-gray-700: #92929F;
   --kt-text-gray-800: #CDCDDE;
   --kt-text-gray-900: #FFFFFF;
+  --kt-text-whisp:#d0ff00;
   --kt-body-bg: #1e1e2d;
   --kt-body-bg-rgb: 30, 30, 45;
   --kt-body-color: #FFFFFF;

@@ -86,10 +86,10 @@ label, p, a, button {
   --kt-gray-700-rgb: 146, 146, 159;
   --kt-gray-800-rgb: 205, 205, 222;
   --kt-gray-900-rgb: 255, 255, 255;
-  --kt-dark: #FFFFFF;
+  /* --kt-dark: #FFFFFF; */
   --kt-light: #2B2B40;
   --kt-secondary: #323248;
-  --kt-dark-active: white;
+  --kt-dark-active: #d0ff00;
   --kt-light-active: #323248;
   --kt-secondary-active: #474761;
   --kt-primary-light: #212e48;
@@ -105,7 +105,8 @@ label, p, a, button {
   --kt-dark-rgb: 255, 255, 255;
   --kt-light-rgb: 43, 43, 64;
   --kt-secondary-rgb: 50, 50, 72;
-  --kt-text-dark: #FFFFFF;
+  --kt-text-dark: #d0ff00;
+  --kt-text-whisp: #d0ff00;
   --kt-text-secondary: #323248;
   --kt-text-gray-100: #1b1b29;
   --kt-text-gray-200: #2B2B40;
@@ -142,7 +143,7 @@ label, p, a, button {
   --kt-dark: #d0ff00;
   --kt-light: #2B2B40;
   --kt-secondary: #323248;
-  --kt-dark-active: white;
+  --kt-dark-active: #d0ff00;
   --kt-light-active: #323248;
   --kt-secondary-active: #474761;
   --kt-primary-light: #212e48;
@@ -186,7 +187,7 @@ label, p, a, button {
   --kt-box-shadow-sm: 0 0.1rem 1rem 0.25rem rgba(0, 0, 0, 0.05);
   --kt-box-shadow: 0 0.5rem 1.5rem 0.5rem rgba(0, 0, 0, 0.075);
   --kt-box-shadow-lg: 0 1rem 2rem 1rem rgba(0, 0, 0, 0.1);
-  --kt-headings-color: #FFFFFF;
+  --kt-headings-color: #d0ff00;
   --kt-table-color: #FFFFFF;
   --kt-table-bg: transparent;
   --kt-table-striped-color: #FFFFFF;
@@ -237,12 +238,13 @@ label, p, a, button {
   --kt-form-check-input-border: 1px solid #323248;
   --kt-form-check-input-focus-border: #474761;
   --kt-form-check-input-focus-box-shadow: none;
-  --kt-form-check-input-checked-color: #ffffff;
-  --kt-form-check-input-checked-bg-color: #009ef7;
+  --kt-form-check-input-checked-color: #1b252f;
+  --kt-form-check-input-checked-bg-color: #36414c;
+  --kt-form-check-input-checked-bg-color-solid: #d0ff00;
   --kt-form-check-input-checked-border-color: #009ef7;
-  --kt-form-check-input-checked-bg-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 13 11' width='13' height='11' fill='none'%3e%3cpath d='M11.0426 1.02893C11.3258 0.695792 11.8254 0.655283 12.1585 0.938451C12.4917 1.22162 12.5322 1.72124 12.249 2.05437L5.51985 9.97104C5.23224 10.3094 4.72261 10.3451 4.3907 10.05L0.828197 6.88335C0.50141 6.59288 0.471975 6.09249 0.762452 5.7657C1.05293 5.43891 1.55332 5.40948 1.88011 5.69995L4.83765 8.32889L11.0426 1.02893Z' fill='%23ffffff'/%3e%3c/svg%3e");
-  --kt-form-check-radio-checked-bg-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='2' fill='%23ffffff'/%3e%3c/svg%3e");
-  --kt-form-check-input-indeterminate-color: #ffffff;
+  --kt-form-check-input-checked-bg-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 13 11' width='13' height='11' fill='none'%3e%3cpath d='M11.0426 1.02893C11.3258 0.695792 11.8254 0.655283 12.1585 0.938451C12.4917 1.22162 12.5322 1.72124 12.249 2.05437L5.51985 9.97104C5.23224 10.3094 4.72261 10.3451 4.3907 10.05L0.828197 6.88335C0.50141 6.59288 0.471975 6.09249 0.762452 5.7657C1.05293 5.43891 1.55332 5.40948 1.88011 5.69995L4.83765 8.32889L11.0426 1.02893Z' fill='%23000000'/%3e%3c/svg%3e");
+  --kt-form-check-radio-checked-bg-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='2' fill='%231b252f'/%3e%3c/svg%3e");
+  --kt-form-check-input-indeterminate-color: #1b252f;
   --kt-form-check-input-indeterminate-bg-color: #009ef7;
   --kt-form-check-input-indeterminate-border-color: #009ef7;
   --kt-form-check-input-indeterminate-bg-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23ffffff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10h8'/%3e%3c/svg%3e");
@@ -252,7 +254,7 @@ label, p, a, button {
   --kt-form-switch-color: rgba(255, 255, 255, 0.25);
   --kt-form-switch-color-solid: #A1A5B7;
   --kt-form-switch-bg-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba%28255, 255, 255, 0.25%29'/%3e%3c/svg%3e");
-  --kt-form-switch-bg-image-solid: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23A1A5B7'/%3e%3c/svg%3e");
+  --kt-form-switch-bg-image-solid: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23ffffff'/%3e%3c/svg%3e");
   --kt-form-switch-focus-color: #474761;
   --kt-form-switch-focus-bg-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23474761'/%3e%3c/svg%3e");
   --kt-form-switch-checked-color: #ffffff;
@@ -417,7 +419,7 @@ label, p, a, button {
   --kt-drawer-bg-color: #1e1e2d;
   --kt-drawer-overlay-bg-color: rgba(0, 0, 0, 0.4);
   --kt-menu-dropdown-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
-  --kt-menu-dropdown-bg-color: #1e1e2d;
+  --kt-menu-dropdown-bg-color: #36414c;
   --kt-menu-heading-color: #565674;
   --kt-menu-link-color-hover: #009ef7;
   --kt-menu-link-color-show: #009ef7;
