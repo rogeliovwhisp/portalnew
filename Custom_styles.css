@@ -88,6 +88,7 @@ label, p, a, button {
   --kt-gray-900-rgb: 255, 255, 255;
   /* --kt-dark: #FFFFFF; */
   --kt-light: #2B2B40;
+  --kt-primary: #009ef7;
   --kt-secondary: #323248;
   --kt-dark-active: #d0ff00;
   --kt-light-active: #323248;
@@ -239,9 +240,9 @@ label, p, a, button {
   --kt-form-check-input-focus-border: #474761;
   --kt-form-check-input-focus-box-shadow: none;
   --kt-form-check-input-checked-color: #1b252f;
-  --kt-form-check-input-checked-bg-color: #36414c;
+  --kt-form-check-input-checked-bg-color: #d0ff00;
   --kt-form-check-input-checked-bg-color-solid: #d0ff00;
-  --kt-form-check-input-checked-border-color: #009ef7;
+  --kt-form-check-input-checked-border-color: #d0ff00;
   --kt-form-check-input-checked-bg-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 13 11' width='13' height='11' fill='none'%3e%3cpath d='M11.0426 1.02893C11.3258 0.695792 11.8254 0.655283 12.1585 0.938451C12.4917 1.22162 12.5322 1.72124 12.249 2.05437L5.51985 9.97104C5.23224 10.3094 4.72261 10.3451 4.3907 10.05L0.828197 6.88335C0.50141 6.59288 0.471975 6.09249 0.762452 5.7657C1.05293 5.43891 1.55332 5.40948 1.88011 5.69995L4.83765 8.32889L11.0426 1.02893Z' fill='%23000000'/%3e%3c/svg%3e");
   --kt-form-check-radio-checked-bg-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='2' fill='%231b252f'/%3e%3c/svg%3e");
   --kt-form-check-input-indeterminate-color: #1b252f;
@@ -302,7 +303,7 @@ label, p, a, button {
   --kt-pagination-focus-bg: #2B2B40;
   --kt-pagination-focus-box-shadow: none;
   --kt-pagination-focus-outline: 0;
-  --kt-pagination-hover-color: #009ef7;
+  --kt-pagination-hover-color: #d0ff00;
   --kt-pagination-hover-bg: #2B2B40;
   --kt-pagination-hover-border-color: transparent;
   --kt-pagination-active-color: #000000;
@@ -473,7 +474,7 @@ label, p, a, button {
   --bs-body-bg: #1e1e2d;
   --bs-border-color: #2B2B40;
   --bs-heading-color: #FFFFFF;
-  --bs-link-color: #009ef7;
+  --bs-link-color: #d0ff00;
   --bs-link-hover-color:green;
   --bs-code-color: #b93993;
 }
