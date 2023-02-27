@@ -58,7 +58,7 @@ label, p, a, button {
   --kt-app-sidebar-light-menu-heading-color: green;
   --kt-app-sidebar-light-menu-link-bg-color-active: green;
   --kt-app-sidebar-light-header-menu-link-bg-color-active: #FFFFFF;
-  --kt-app-toolbar-base-bg-color: red;
+  --kt-app-toolbar-base-bg-color: #d0ff00;
   --kt-app-toolbar-base-bg-color-mobile: green;
   --kt-app-toolbar-base-box-shadow: none;
   --kt-app-toolbar-base-box-shadow-mobile: 0px 10px 30px 0px rgba(82, 63, 105, 0.05);
@@ -88,7 +88,8 @@ label, p, a, button {
   --kt-gray-900-rgb: 255, 255, 255;
   /* --kt-dark: #FFFFFF; */
   --kt-light: #2B2B40;
-  --kt-primary: #009ef7;
+  --kt-primary: #d0ff00;
+  --kt-primary-active: #d0ff00;
   --kt-secondary: #323248;
   --kt-dark-active: #d0ff00;
   --kt-light-active: #323248;
@@ -98,7 +99,8 @@ label, p, a, button {
   --kt-info-light: #2f264f;
   --kt-warning-light: #392f28;
   --kt-danger-light: #3a2434;
-  --kt-dark-light: #2B2B40;
+  --kt-dark-light: #FFFFFF;
+  --kt-primary-inverse: #FFFFFF;
   --kt-secondary-light: #1b1b29;
   --kt-dark-inverse: #1b1b29;
   --kt-light-inverse: #6D6D80;
@@ -106,6 +108,7 @@ label, p, a, button {
   --kt-dark-rgb: 255, 255, 255;
   --kt-light-rgb: 43, 43, 64;
   --kt-secondary-rgb: 50, 50, 72;
+  --kt-text-primary: #d0ff00;
   --kt-text-dark: #d0ff00;
   --kt-text-whisp: #d0ff00;
   --kt-text-secondary: #323248;
@@ -117,7 +120,6 @@ label, p, a, button {
   --kt-text-gray-600: #6D6D80;
   --kt-text-gray-700: #92929F;
   --kt-text-gray-800: #CDCDDE;
-  --kt-text-gray-900: #FFFFFF;
 }
 
 /*begin::input, form, paginator, menu link*/
@@ -160,6 +162,7 @@ label, p, a, button {
   --kt-dark-rgb: 255, 255, 255;
   --kt-light-rgb: 43, 43, 64;
   --kt-secondary-rgb: 50, 50, 72;
+
   --kt-text-dark: #FFFFFF;
   --kt-text-secondary: #323248;
   --kt-text-gray-100: #1b1b29;
@@ -323,7 +326,7 @@ label, p, a, button {
   --kt-accordion-button-color: #FFFFFF;
   --kt-accordion-button-bg: #1e1e2d;
   --kt-accordion-button-active-bg: #1b1b29;
-  --kt-accordion-button-active-color: #009ef7;
+  --kt-accordion-button-active-color: #d0ff00;
   --kt-accordion-button-focus-border-color: #2B2B40;
   --kt-accordion-button-focus-box-shadow: none;
   --kt-accordion-icon-color: #FFFFFF;
@@ -371,8 +374,8 @@ label, p, a, button {
   --kt-list-group-border-color: rgba(255, 255, 255, 0.125);
   --kt-list-group-hover-bg: #F9F9F9;
   --kt-list-group-active-color: #ffffff;
-  --kt-list-group-active-bg: #009ef7;
-  --kt-list-group-active-border-colorg: #009ef7;
+  --kt-list-group-active-bg: #d0ff00;
+  --kt-list-group-active-border-colorg: #d0ff00;
   --kt-list-group-disabled-color: #6D6D80;
   --kt-list-group-disabled-bg: #000000;
   --kt-list-group-action-colorg: #92929F;
@@ -385,7 +388,7 @@ label, p, a, button {
   --kt-figure-caption-color: #6D6D80;
   --kt-breadcrumb-bg: ;
   --kt-breadcrumb-divider-color: #6D6D80;
-  --kt-breadcrumb-active-color: #009ef7;
+  --kt-breadcrumb-active-color: #d0ff00;
   --kt-carousel-custom-indicator-default-bg-color: #2B2B40;
   --kt-carousel-custom-indicator-active-bg-color: #474761;
   --kt-arousel-custom-bullet-indicator-default-bg-color: #474761;
@@ -422,10 +425,10 @@ label, p, a, button {
   --kt-menu-dropdown-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
   --kt-menu-dropdown-bg-color: #36414c;
   --kt-menu-heading-color: #565674;
-  --kt-menu-link-color-hover: #009ef7;
-  --kt-menu-link-color-show: #009ef7;
-  --kt-menu-link-color-here: #009ef7;
-  --kt-menu-link-color-active: #009ef7;
+  --kt-menu-link-color-hover: #d0ff00;
+  --kt-menu-link-color-show: #d0ff00;
+  --kt-menu-link-color-here: #d0ff00;
+  --kt-menu-link-color-active: #d0ff00;
   --kt-menu-link-bg-color-hover: #2B2B40;
   --kt-menu-link-bg-color-show: #2B2B40;
   --kt-menu-link-bg-color-here: #2B2B40;
@@ -439,7 +442,7 @@ label, p, a, button {
   --kt-rating-color-default: #474761;
   --kt-rating-color-active: #FFAD0F;
   --kt-ribbon-label-box-shadow: 0px -1px 5px 0px rgba(255, 255, 255, 0.1);
-  --kt-ribbon-label-bg: #009ef7;
+  --kt-ribbon-label-bg: #d0ff00;
   --kt-ribbon-label-border-color: #005d91;
   --kt-ribbon-clip-bg: #F9F9F9;
   --kt-engage-btn-bg: #2B2B40;
@@ -475,7 +478,7 @@ label, p, a, button {
   --bs-border-color: #2B2B40;
   --bs-heading-color: #FFFFFF;
   --bs-link-color: #d0ff00;
-  --bs-link-hover-color:green;
+  --bs-link-hover-color:#d0ff00;
   --bs-code-color: #b93993;
 }
 /*end::buttons*/
