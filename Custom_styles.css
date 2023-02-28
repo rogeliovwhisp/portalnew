@@ -54,12 +54,12 @@ label, p, a, button {
   --kt-app-sidebar-light-box-shadow: green;
   --kt-app-sidebar-light-separator-color: green;
   --kt-app-sidebar-light-scrollbar-color: green;
-  --kt-app-sidebar-light-scrollbar-color-hover: green;
+  --kt-app-sidebar-light-scrollbar-color-hover: #d0ff00;
   --kt-app-sidebar-light-menu-heading-color: green;
-  --kt-app-sidebar-light-menu-link-bg-color-active: green;
+  --kt-app-sidebar-light-menu-link-bg-color-active: #d0ff00;
   --kt-app-sidebar-light-header-menu-link-bg-color-active: #FFFFFF;
   --kt-app-toolbar-base-bg-color: #d0ff00;
-  --kt-app-toolbar-base-bg-color-mobile: green;
+  --kt-app-toolbar-base-bg-color-mobile: #d0ff00;
   --kt-app-toolbar-base-box-shadow: none;
   --kt-app-toolbar-base-box-shadow-mobile: 0px 10px 30px 0px rgba(82, 63, 105, 0.05);
   --kt-app-toolbar-base-border-top: 0;
@@ -115,7 +115,7 @@ label, p, a, button {
   --kt-text-gray-100: #1b1b29;
   --kt-text-gray-200: #2B2B40;
   --kt-text-gray-300: #323248;
-  --kt-text-gray-400: #474761;
+  --kt-text-gray-400: #B5B5C3;
   --kt-text-gray-500: #565674;
   --kt-text-gray-600: #6D6D80;
   --kt-text-gray-700: #92929F;
@@ -128,7 +128,7 @@ label, p, a, button {
   --kt-gray-100: #1b1b29;
   --kt-gray-200: #2B2B40;
   --kt-gray-300: #323248;
-  --kt-gray-400: #474761;
+  --kt-gray-400: #B5B5C3;
   --kt-gray-500: #565674;
   --kt-gray-600: #6D6D80;
   --kt-gray-700: #92929F;
@@ -162,7 +162,6 @@ label, p, a, button {
   --kt-dark-rgb: 255, 255, 255;
   --kt-light-rgb: 43, 43, 64;
   --kt-secondary-rgb: 50, 50, 72;
-
   --kt-text-dark: #FFFFFF;
   --kt-text-secondary: #323248;
   --kt-text-gray-100: #1b1b29;
@@ -286,7 +285,7 @@ label, p, a, button {
   --kt-nav-tabs-link-active-bg: #1e1e2d;
   --kt-nav-tabs-link-active-border-color: #323248 #323248 #1e1e2d;
   --kt-nav-pills-link-active-color: #ffffff;
-  --kt-nav-pills-link-active-bg: #009ef7;
+  --kt-nav-pills-link-active-bg: #d0ff00;
   --kt-dropdown-color: #FFFFFF;
   --kt-dropdown-bg: #1e1e2d;
   --kt-dropdown-divider-bg: #1b1b29;
